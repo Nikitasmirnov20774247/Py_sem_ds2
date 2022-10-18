@@ -10,4 +10,4 @@ for i in range (0, len(string)+1):
     for j in range(0, len(string)+1):
         if find == string[i:j]:
             count = count + 1
-print (f'Ответ: {count}')
+print (f'Количество вхождений одной строки в другую - {count}')
